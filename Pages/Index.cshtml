@@ -16,7 +16,7 @@
     @if (Model.ShowGreeting) {
         <p>@Greeting()</p>
     }
-    Here are some other projects to explore
+    Here are some other projects to <a asp-protocol="https" asp-host="asp.net" asp-page="/Index">explore</a>:
 
     <ul>
         @foreach(var projectType in Model.OtherProjectTypes) {
